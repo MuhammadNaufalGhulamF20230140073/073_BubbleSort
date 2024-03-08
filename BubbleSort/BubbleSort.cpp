@@ -58,3 +58,13 @@ void display() {
 	cout << "Jumblah pass = " << n - 1 << endl;
 	cout << endl;
 }
+
+int main() {
+
+	input();
+	BubbleSortArray();
+	display();
+	system("pause");
+
+	return 0;
+}
